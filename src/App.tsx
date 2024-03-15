@@ -1,14 +1,9 @@
-import { useEffect, useRef } from "react";
+import { Button, ButtonGroup } from "@chakra-ui/react";
 
 function App() {
-  const ref = useRef<HTMLInputElement>(null);
-
-  // AfterRender
-  
-
   return (
     <div>
-      
+      <Button colorScheme="blue">Button</Button>
     </div>
   );
 }
